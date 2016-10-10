@@ -16,4 +16,5 @@ function [mutualInfVector] = slidingWindow(query, target, alphabet, step)
     end
 
     mutualInfVector = transpose(mutualInfVector);
+    %disp(mutualInfVector);
 end

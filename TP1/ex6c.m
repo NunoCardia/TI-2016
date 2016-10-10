@@ -1,7 +1,7 @@
 r = zeros(7, 2);
 
 for i=1:7
-    r(i, 1) = ex6mminf(sprintf('Song0%d.wav', i));
+    r(i, 1) = ex6mminf(sprintf('dados/Song0%d.wav', i));
     r(i, 2) = i;
 end
 

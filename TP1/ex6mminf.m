@@ -1,8 +1,8 @@
 function [mmi] = ex6mminf(file)
     % Calcula a informacaoo mutua maxima entre o ficheiro 'file' e o ficheiro
-    % guitarSolo.wav.
+    % saxriff.wav
 
-    query = audioread('guitarSolo.wav');
+    query = audioread('dados/saxriff.wav');
     query = query(:);
     quant = 7;
     d = 1 / (2^quant);
