@@ -1,0 +1,53 @@
+exercicio 3:
+Lena.bmp: 6.9153
+CT1.bmp: 5.9722
+Binaria.bmp: 0.9755
+saxriff.wav: 3.5356
+texto.txt: 3.9547
+
+exercicio 4:
+Lena.bmp: 6.9425
+CT1.bmp: 6.0075
+binaria.bmp: 1
+saxriff.wav: 3.5899
+texto.txt: 4.2173
+
+exercicio 5:
+Lena.bmp: 5.3689
+CT1.bmp: 4.5339
+Binaria.bmp: 0.5382
+Saxriff.wav: 2.9100
+texto.txt: 3.1717
+
+exercicio 6:
+	b)
+		target01 - repeat.wav
+		    2.2489
+		    0.0680
+		    1.1771
+		    0.0670
+		    0.8388
+		    0.0676
+		    0.6727
+		    0.0679
+		    0.5824
+
+		target02 - repeatNoise.wav
+		    0.2905
+		    0.0481
+		    0.1828
+		    0.0405
+		    0.1139
+		    0.0482
+		    0.1844
+		    0.0485
+		    0.1691
+
+	c)
+		Song01.wav -> 0.077952
+		Song02.wav -> 0.114060
+		Song03.wav -> 0.092564
+		Song04.wav -> 0.112439
+		Song05.wav -> 0.519376
+		Song06.wav -> 3.535599
+		Song07.wav -> 3.535599

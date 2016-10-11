@@ -13,6 +13,8 @@ function [mmi] = ex6mminf(file)
     wav = wav(:);
     wav = wav*2^quant;
     r = slidingWindow(query, wav, alf, floor(0.25 * length(query)));
-    %waitfor(plot(r));
+    axis([0 10 0 10]);
+    bar(r);
     mmi = max(r);
+    pause;
 end
