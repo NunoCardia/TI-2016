@@ -34,8 +34,8 @@ file = fopen('dados/Texto.txt');
 text = fscanf(file, '%s');
 fclose(file);
 text = text(:);
-englishAlphabet = ['a':'z' 'A':'Z'];
-h = hist(text, englishAlphabet);
+Alphabet = ['a':'z' 'A':'Z'];
+h = hist(text,Alphabet);
 huf = hufflen(h);
 disp(entropiaHuffman(h, huf));
 

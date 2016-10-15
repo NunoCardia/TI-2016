@@ -1,7 +1,7 @@
 %Lena.bmp
 imagem = imread('dados/Lena.bmp');
 imagem = imagem(:);
-imagem = vec2mat(imagem, 2); %converter de vetor para matriz. matriz com n linhas e 2 colunas
+imagem = vec2mat(imagem, 2);
 alf = getpairs(0:255);
 createHistogram(imagem, alf);
 disp(entropia(imagem, alf) / 2);
@@ -45,13 +45,13 @@ title('saxriff.wav');
 pause;
 
 %texto.txt
-englishAlphabet = ['a':'z' 'A':'Z'];
+Alphabet = ['a':'z' 'A':'Z'];
 textFile = fopen('dados/Texto.txt');
 text = fscanf(textFile, '%s');
 fclose(textFile);
 text = text(:);
 text = vec2mat(text, 2);    
-alf = getpairs(englishAlphabet);
+alf = getpairs(Alphabet);
 createHistogram(text, alf);
 disp(entropia(text, alf) / 2);
 axis([0 250 0 25]);

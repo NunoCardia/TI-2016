@@ -1,6 +1,5 @@
 function [inf] = mutualInf(X, Y, alf)
     % Calcula a informacao mutua entre X e Y.
-
     offset = - min(min(X), min(Y)) + 1;
     matrix = zeros(length(alf));
 

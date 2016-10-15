@@ -1,4 +1,4 @@
-function [mmi] = ex6mminf(file)
+function [mmi,values] = ex6mminf(file)
     % Calcula a informacaoo mutua maxima entre o ficheiro 'file' e o ficheiro
     % saxriff.wav
 
@@ -13,8 +13,6 @@ function [mmi] = ex6mminf(file)
     wav = wav(:);
     wav = wav*2^quant;
     r = slidingWindow(query, wav, alf, floor(0.25 * length(query)));
-    axis([0 10 0 10]);
-    bar(r);
+    values = r;
     mmi = max(r);
-    pause;
 end
