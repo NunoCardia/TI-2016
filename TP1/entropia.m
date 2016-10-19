@@ -14,7 +14,7 @@ function ent = entropia(P, A)
     ent = 0;
     total = length(P);
     
-    alf = intersect(unique(P, 'rows'), A, 'rows');
+    alf = intersect(unique(P), A);
     h = size(alf);
     h = h(1);
 
