@@ -1,8 +1,8 @@
 # TI-2016
 
-Trabalho Prático n.º 1 de Teoria de Informação
+Information Theory - 1 (First order entropy, Huffman Coding and Mutual Information)
 
-Os ficheiros principais são:
+Main files are:
 
 1. createHist.m
 2. entropia.m
@@ -12,12 +12,3 @@ Os ficheiros principais são:
 6.a) slidingWindow.m
 6.b) ex6b.m
 6.c) ex6c.m
-
-Trabalho realizado por:
-Nuno Ferreira 2013153319
-
-1 e 2 bem
-3 alterar de modo a ver cada um dos graficos em separado
-4 e 5 same
-verificar 6
-responder às perguntas do relatório
